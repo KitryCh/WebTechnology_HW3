@@ -9,6 +9,6 @@
 // Советую округлить значение после расчетов, так как в некоторых случаях может получиться "длинная дробь".
 
 
-const Celsius = Number.parseFloat(prompt("Введите температуру в градусах Цельсия": ));
+const Celsius = Number.parseFloat(prompt("Введите температуру в градусах Цельсия" ));
 const Fahrenheit = (9 / 5) * Celsius + 32;
-alert(`Цельсий: ${tempCels} , Фаренгейт: ${tempFareng.toFixed(1)}`);
+alert(`Цельсий: ${Celsius} , Фаренгейт: ${Fahrenheit.toFixed(1)}`);
